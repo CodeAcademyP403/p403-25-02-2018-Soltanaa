@@ -1,0 +1,116 @@
+
+
+/*photo*/
+body{
+    width: 660px;
+    height: 800px;
+    margin: auto;
+    
+    background-color: rgb(133, 232, 250); 
+    
+}
+
+
+
+.price{
+    
+    
+    border: 4px solid rgb(70, 68, 68);
+    border-right: none;
+    width: 250px;
+    height: 400px;
+    text-align: left;
+    padding-left: 0px;
+    position: relative;
+    float: left;
+    
+}
+.price img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.text{
+    position: absolute;
+    background: transparent;
+    width: 200px;
+    height: 170px;
+    left: 30px;
+    bottom: 10px;
+    line-height: 0.9;
+
+}
+
+.text h3{
+    color: rgb(196, 193, 193);
+}
+.text h1{
+    color: white;
+}
+.text h4{
+    color: rgb(218, 213, 213);
+}
+.line{
+    height: 2px;
+    width: 83px;
+    background: rgb(196, 193, 193);
+    position: absolute;
+    z-index: 1;
+    bottom:74px;
+    left: 0;
+}
+
+
+.Order{
+    float: left;
+    width: 400px;
+    height: 380px;
+    border: 4px solid rgb(70, 68, 68);
+    border-left: none;
+    background: white;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 20px;
+    position: relative;
+
+}
+.Order input{
+    width: 250px;
+    height: 30px;
+    text-align: left;
+    padding-left:10px;
+    border-radius: 5px;
+    border-color: rgb(151, 27, 151);
+    
+}
+
+.Order button{
+    display: block;
+    height: 35px;
+    width: 130px;
+    color: white;
+    background: rgb(151, 27, 151);
+    border: none;
+    margin: 20px 130px;
+    
+}
+
+.Order .icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    z-index: 1;
+    top: 40px;
+    right: 40px;
+}
+.Order .icon i{
+    font-size: 1.3em;
+}
+
+.clear{
+    clear: both;
+}
