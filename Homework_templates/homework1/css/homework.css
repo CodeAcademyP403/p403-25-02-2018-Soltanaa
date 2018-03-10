@@ -1,0 +1,51 @@
+
+
+.text-center{
+    text-align: center;
+    }
+
+
+.f {
+    padding: 10px 0px;
+    background-color: gray;
+    height: 1000px;
+    margin:10px;
+}
+
+
+div{
+    
+    background-color:green;
+    weight:100px;
+    text-align:center;
+    
+}
+
+
+div.a >div >h4 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+p{
+    font-style:italic;
+}
+button{
+    background-color:red;
+    padding:10px;
+    border-radius:10px;
+}
+div.b >p{
+    text-transform:capitalize;
+
+}
+div .a{
+    
+    outline:3px solid white;
+    width:60%;
+    margin:auto;
+    padding: 10px 0px;
+}
